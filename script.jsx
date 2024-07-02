@@ -1,4 +1,4 @@
-const clock_container = document.querySelector('#clock-container');
+/*const clock_container = document.querySelector('#clock-container');
 clock_container.innerHTML = `<div id="clock">
                                 <p class="day-html"></p>
                                 <div class="time">
@@ -52,4 +52,16 @@ setInterval(function(){
     if(second < 10){second = `0${second}`}
     hour_minute.textContent = `${hour}:${minute}`;
     seconds.textContent = second;
-});
+});*/
+//Relógio
+/*setInterval(()=>{
+    let hour = new Date().getHours();
+    let minute = new Date().getMinutes();
+    let seconds = new Date().getSeconds();
+    if(hour < 10){hour = `0${hour}`;}
+    if(minute < 10){minute = `0${minute}`;}
+    if(seconds < 10){seconds = `0${seconds}`;}
+    document.querySelector('.hour-minute').textContent = `${hour}:${minute}`;
+    document.querySelector('.seconds').textContent = seconds;
+});*/
+//Imagem de fundo
